@@ -1,0 +1,2 @@
+The model employs a modified ResNet-based feature extractor together with label and domain classifiers connected through a Gradient Reversal Layer to enable ad- versarial training. To simulate domain shift, we constructed a modified target dataset, Fashion-MNIST-M, by introduc- ing color variations and background complexity using ran-
+domly generated colored backgrounds and natural-image patches from the CIFAR dataset
